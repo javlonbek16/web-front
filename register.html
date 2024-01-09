@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+
+  <form id="registerForm" class="max-w-md mx-auto bg-white p-8 rounded shadow-md">
+    <div class="mb-6">
+      <input type="text" id="regUsername" placeholder="Username" required class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500">
+    </div>
+    <div class="mb-6">
+      <input type="password" id="regPassword" placeholder="Password" required class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500">
+    </div>
+    <div class="mb-6">
+      <input type="text" id="regFullname" placeholder="Full Name" required class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500">
+    </div>
+    <div class="mb-6">
+      <input type="text" id="regPhone" placeholder="Phone Number" required class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500">
+    </div>
+    <div>
+      <button type="submit" class="w-full px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Register</button>
+    </div>
+  </form>
+
+  <script src="register.js"></script>
+</body>
+</html>

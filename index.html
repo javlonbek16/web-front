@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+
+  <h1 class="text-3xl font-bold mb-6">Code Storage</h1>
+
+  <form id="codeForm" class="mb-6">
+    <input type="text" id="codeInput" placeholder="Code" required class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500">
+    <button type="submit" class="mt-2 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Store Code</button>
+  </form>
+
+  <div id="codeList" class="bg-white p-4 rounded-md shadow-md">
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
